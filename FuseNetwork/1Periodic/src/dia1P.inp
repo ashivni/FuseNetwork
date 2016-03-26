@@ -1,0 +1,7 @@
+64 # System size
+1  # Number of simulations
+0 1.0 0 # Density Type (1: power law, 2: Weibull), density parameters (power law/Weibull exponent), the second parameter is unused, here for future. 
+0 # Diagnostic mode 0: silent, 1: minimal, 2: normal, 3: Verbose
+1 dia1P.log  # Diagnostic output file, 0: output to stdout, 1: output to given file
+dia1P.dat  # Output file name
+0 seed_1.txt # Seed mode, 0: generate random seeds and write to the given file, 1: read from the given file. 
